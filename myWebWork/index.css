@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 236, 236);
+}
+/* CONTAINER STYLE */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER STYLE */
+header{
+    background-color: white;
+    height: 80px;
+    border-bottom: 3px solid darkgoldenrod
+}
+
+header p{
+    float: left;
+    line-height:80px;
+}
+
+header nav{
+    float: left;
+    margin-left: 50px;
+    max-width: 600px;
+}
+header nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 15px;
+    
+}
+
+header nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+header input[type="search"]{
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: 25px 10px 0px 30px;
+    border: 3px solid darkgoldenrod;
+}
+
+header input[type="submit"]{
+    height: 30px;
+    width: 100px;
+    outline: none;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.active{
+    color: darkgoldenrod;
+}
+
+
+/* BRANDING STYLES */
+.brand{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.brandname{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* SHOWCASE STYLES */
+.showcase{
+    height: 500px;
+    background: url(./imgs/building1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+.showcase h1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 65px;
+    color: rgb(255, 255, 254);
+    font-weight: italic;
+}
+
+.showcase .brand1{
+    font-size: 65px;
+    color: darkgoldenrod;
+}
+.showcase p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(253, 251, 251);
+    padding: 0px 50px 90px 90px;
+
+}
+
+.showcase input[type="email"]{
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: 25px 10px 0px 30px;
+    background: rgb(199, 199, 198);
+    color: black;
+    border: none;
+}
+
+.showcase input[type="submit"]{
+    height: 30px;
+    width: 100px;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(7, 7, 7);
+    font-weight: bold;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    height: 100px;
+    width: auto;
+    background-color: rgb(136, 100, 9);
+}
+
+footer p {
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: whitesmoke;
+}
+
+footer .links img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    float: right;
+}
+
+footer h4{
+    font-size: 18px;
+    color: rgb(3, 2, 22);
+    margin-top: -15px;
+}

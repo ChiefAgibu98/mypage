@@ -1,0 +1,52 @@
+.myform h2{
+    padding-top:30px;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+
+}
+.myform label{
+    font-size: 18px;
+}
+input[type="text"], input[type="email"], input[type="date"],input[type="password"],  #gender{
+    height: 25px;
+    width: 20%;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.reg{
+    height: 25px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+    margin: 50px 0px;
+    cursor: pointer;
+}
+
+.reset{
+    height: 25px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+    margin-left: 100px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.declaration p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16;
+}
+
+.must{
+    color: red;
+}
